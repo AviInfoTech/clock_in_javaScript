@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./analog_clock.css">
+    <title>AnalogClock</title>
+	<link rel="icon" href="./fastrack-icon.png" />
+</head>
+<body>
+    <div class="section">      
+        <div id="analogClock">
+          <svg width="448" height="448" >
+            <g>
+              <g transform="translate(24 24)">
+                <circle cx="200" cy="200" r="212"/>
+                <g transform="translate(13.793 13.22)">
+                  <circle fill-opacity="0.8" fill="white" cx="3.678" cy="186.667" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="27.586" cy="96.552" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="95.632" cy="27.586" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="185.747" cy="3.678" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="276.782" cy="27.586" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="344.828" cy="96.552" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="368.736" cy="186.667" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="344.828" cy="277.701" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="276.782" cy="345.747" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="185.747" cy="369.655" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="95.632" cy="346.667" r="3.678" />
+                  <circle fill-opacity="0.8" fill="white" cx="27.586" cy="277.701" r="3.678" />
+                  <!-- <text x="40%" y="68%" text-anchor="middle" stroke="white" dy="5px">fastrack</text> -->
+                  </g>
+              </g>
+            </g>
+          </svg>
+          <span class="ftext">
+            <img src="./icon.jpg"/>
+          </span>
+          <p id="para">fastrack</p>
+          <div class="center"></div>
+          <div class="second"></div>
+          <div class="hour"></div>
+          <div class="minute"></div>
+
+        </div>
+    </div>
+    <script src="./clock.js"></script>
+</body>
+</html>
